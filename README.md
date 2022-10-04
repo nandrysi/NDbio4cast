@@ -5,3 +5,6 @@ email: zyu3@nd.edu
 
 Stacy Mowry
 email: smowry@nd.edu
+
+Nick Andrysiak
+email: nandrysi@nd.edu
