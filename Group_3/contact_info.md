@@ -5,3 +5,6 @@ email: zyu3@nd.edu
 
 Kayla Anderson
 email: kander42@nd.edu
+
+Stacy Mowry
+email: smowry@nd.edu
