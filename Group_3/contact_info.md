@@ -2,3 +2,6 @@
 2022 ND BIOS Biological Forecasting Class Repository
 Zhuoran Yu
 email: zyu3@nd.edu
+
+Kayla Anderson
+email: kander42@nd.edu
