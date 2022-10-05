@@ -8,3 +8,6 @@ email: kander42@nd.edu
 
 Stacy Mowry
 email: smowry@nd.edu
+
+Nick Andrysiak
+email: nandrysi@nd.edu
