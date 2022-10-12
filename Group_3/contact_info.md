@@ -2,6 +2,7 @@
 
 Kayla Anderson email: kander42@nd.edu
 
+ main
 Stacy Mowry email: smowry@nd.edu
 
 Nick Andrysiak email: nandrysi@nd.edu
@@ -75,3 +76,10 @@ download_biomass<-function()
   return(phyto.time)
   
 }
+
+Stacy Mowry
+email: smowry@nd.edu
+
+Nick Andrysiak
+email: nandrysi@nd.edu
+
