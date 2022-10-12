@@ -1,15 +1,3 @@
-022 ND BIOS Biological Forecasting Class Repository Zhuoran Yu email: zyu3@nd.edu
-
-Kayla Anderson email: kander42@nd.edu
-
- main
-Stacy Mowry email: smowry@nd.edu
-
-Nick Andrysiak email: nandrysi@nd.edu
-
-## Download data (work in progress)
-Currently downloads chla data, dissolved O2, and phytoplankton biomass and plots data time series
-
 
 ##load libraries
 #install.packages("neonUtilities")
@@ -76,10 +64,3 @@ download_biomass<-function()
   return(phyto.time)
   
 }
-
-Stacy Mowry
-email: smowry@nd.edu
-
-Nick Andrysiak
-email: nandrysi@nd.edu
-
