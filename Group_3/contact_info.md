@@ -7,6 +7,12 @@ Stacy Mowry email: smowry@nd.edu
 
 Nick Andrysiak email: nandrysi@nd.edu
 
+Stacy Mowry
+email: smowry@nd.edu
+
+Nick Andrysiak
+email: nandrysi@nd.edu
+
 ## Download data (work in progress)
 Currently downloads chla data, dissolved O2, and phytoplankton biomass and plots data time series
 
