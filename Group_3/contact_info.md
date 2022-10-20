@@ -77,9 +77,10 @@ download_biomass<-function()
   
 }
 
-Stacy Mowry
-email: smowry@nd.edu
+#Load Target Data
+download_targets <- function(){
+  readr::read_csv("https://data.ecoforecast.org/neon4cast-targets/aquatics/aquatics-targets.csv.gz", guess_max = 1e6)
+}
 
-Nick Andrysiak
-email: nandrysi@nd.edu
+target<-download_targets()
 
