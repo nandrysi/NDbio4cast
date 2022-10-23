@@ -89,3 +89,35 @@ download_targets <- function(){
 }
 target<-download_targets()
 
+
+chla<-target$observation [target$site_id == "PRPO" & target$variable== "chla"]
+
+
+#Downlodading chemical prop of surface water data
+download_chem_prop<-function()
+{
+  chem_prop <- loadByProduct(dpID="DP1.20093.001", 
+                                    site=c("PRPO"),
+                                    check.size = F)
+                                    
+          #subset desired data
+time<-chem_prop$swc_fieldSuperParent$collectDate
+time<-lubridate::as_datetime(time)
+oxygen<-chem_prop$swc_fieldSuperParent$dissolvedOxygen
+temp<-chem_prop$swc_fieldSuperParent$waterTemp
+chem_prop<-cbind(time,oxygen,temp)
+  
+  
+  #return the dataframe
+  chem_prop<<- as.data.frame(chem_prop)
+  
+  
+  
+}
+
+oxygen<-chem_prop$oxygen
+  plot (chla, chem_prop$oxygen)
+  
+  
+  
+
